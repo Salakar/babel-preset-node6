@@ -18,7 +18,9 @@
   "author": "Mike Diarmid <mike.diarmid@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4"
   }
 }
