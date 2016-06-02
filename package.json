@@ -1,14 +1,14 @@
 {
-  "name": "babel-preset-node6",
-  "version": "11.0.0",
-  "description": "Babel preset for Node 6.x (ES6 / ES2015)",
-  "repository": "git://github.com/salakar/babel-preset-node6.git",
+  "name": "babel-preset-node",
+  "version": "1.0.0",
+  "description": "Babel preset for the latest Node (current: v6.x)",
+  "repository": "git://github.com/dominhhai/babel-preset-node.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "babel-preset-node6",
+    "babel-preset-node",
     "babel-preset",
     "babel",
     "node6",
@@ -18,7 +18,9 @@
   "author": "Mike Diarmid <mike.diarmid@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4"
   }
 }
