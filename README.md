@@ -29,7 +29,7 @@ Install via NPM the usual way:
 
 ### Via `.babelrc` (recommended)
 
-Create a `.babelrc` file in your project root, and include 'node5' in your preset path:
+Create a `.babelrc` file in your project root, and include 'node6' in your preset path:
 
 ```js
 {
